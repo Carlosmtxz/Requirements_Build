@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy: #0D2E4E;
+  --blue: #185FA5;
+  --blue-light: #E6F1FB;
+  --border: #E2E0D8;
+  --bg: #F7F6F2;
+  --bg-card: #FFFFFF;
+  --text: #1A1A1A;
+  --text-secondary: #666;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
